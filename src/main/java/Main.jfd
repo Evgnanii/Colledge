@@ -1,0 +1,37 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormComponent( "javax.swing.JTextField" ) {
+			name: "textField1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 45, 45 )
+		} )
+		add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+			name: "formattedTextField1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 150, 45 )
+		} )
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:111:p, comp checkBox1:::p::p}, seq l {space :p:65:p, comp toggleButton1:::p::p}, seq l {space :p:203:p, comp formattedTextField2:::p::p}}, space ::208:x}}"
+			"$verticalGroup": "par l {seq l {space :p:113:p, comp toggleButton1:::p::p, space s:::p, comp checkBox1:::p::p, space :p:48:p, comp formattedTextField2:::p::p, space ::80:x}}"
+		} ) {
+			name: "panel1"
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JToggleButton" ) {
+				name: "toggleButton1"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField2"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 15 )
+			"size": new java.awt.Dimension( 460, 340 )
+		} )
+	}
+}

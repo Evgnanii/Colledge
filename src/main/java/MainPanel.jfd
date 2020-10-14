@@ -1,0 +1,162 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {seq l {comp panel1:::p::p, space :0:0:x}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::83:x, comp btnGroup:::p::p, space :p:81:p, comp button1:::p::p, space :p:63:p, comp btnForIzv:::p::p, space :p:73:p}, seq l {space :p:18:p, par l {comp label5:::p:143:p, comp label4:::p:143:p, comp label3:::p:143:p, comp label2:::p:143:p, comp label10:::p:143:p, comp label9:::p:143:p, comp label8:::p:143:p, comp label7:::p:143:p, comp label11:::p:143:p, comp label6::l:p:143:p, comp label14:::p:143:p, comp label13:::p:143:p, comp label12:::p:143:p, comp label19:::p:143:p, seq l {par l {comp sirot:::p::p, comp invalid:::p::p}, space :p:59:p, par l:::p {comp label15:::p:143:p, comp multiChild::l:p::p, comp chS::l:p::p}}, comp label16::l:p:252:p}, space :::x, par l {comp fioRod:::p:250:p, comp comboBox2:::p::p, comp date:::p:250:p, comp address:::p:250:p, comp phones:::p:250:p, comp school::l:p:250:p, comp birth::l:p:250:p, comp fio::l:p:250:p, comp momAddress:::p:250:p, comp mom:::p:250:p, comp dad:::p:250:p, comp passport:::p:250:p, comp prof:::p:250:p, comp dadAddress::l:p:250:p, comp stage:::p:250:p, comp domitory:::p::p}, space :::x}}"
+				"$verticalGroup": "par l {seq {space :p:3:p, par b {comp fioRod::b:p::p, comp label16::b:p::p}, space :::p, par b {comp fio::b:p::p, comp label6::b:p::p}, space :::p, par b {comp label5::b:p::p, comp comboBox2::b:p::p}, space :::p, par b {comp date::b:p::p, comp label4::b:p::p}, space :::p, par b {comp phones::b:p::p, comp label3::b:p::p}, space :::p, par b {comp address::b:p::p, comp label2::b:p::p}, space :::p, par b {comp school::b:p::p, comp label10::b:p::p}, space :::p, par b {comp birth::b:p::p, comp label9::b:p::p}, space :::p, par b {comp prof::b:p::p, comp label8::b:p::p}, space :::p, par b {comp passport::b:p::p, comp label7::b:p::p}, space :::p, par b {comp label11::b:p::p, comp dad::b:p::p}, space :::p, par b {comp dadAddress::b:p::p, comp label14::b:p::p}, space :::p, par b {comp mom::b:p::p, comp label13::b:p::p}, space :::p, par b {comp momAddress::b:p::p, comp label12::b:p::p}, space :::p, par b {comp label19::b:p::p, comp stage::b:p::p}, space :p:9:p, par b {comp sirot::b:p::p, comp chS::b:p::p, comp domitory::b:p::p}, space :::p, par b {comp invalid::b:p::p, comp multiChild::b:p::p}, space :::x, par b {comp button1::b:p::p, comp btnGroup::b:p::p, comp btnForIzv::b:p::p}, space :p:35:p, comp label15:::p::p}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "fio"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "passport"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "date"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "address"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "phones"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "prof"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "birth"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "school"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Адрес"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Телефоны"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Дата подачи"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Группа"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "ФИО"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Паспорт"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Профессия"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Дата рождения"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "Учреждение образования"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "Отец"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label15"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "dad"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "dadAddress"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "stage"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "momAddress"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "mom"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "Адрес матери"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "Мать"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "Адрес отца"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label19"
+					"text": "Стаж"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "invalid"
+					"text": "Инвалид"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox2"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Создать заявление"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "sirot"
+					"text": "Сирота"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "chS"
+					"text": "Чс"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "multiChild"
+					"text": "Многодетный"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "domitory"
+					"text": "Общежитие"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGroup"
+					"text": "Группы"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"text": "ФИО родительский падеж"
+				} )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "fioRod"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnForIzv"
+					"text": "Для извещения"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 635, 695 )
+		} )
+	}
+}

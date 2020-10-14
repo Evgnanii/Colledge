@@ -1,0 +1,41 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {comp text::t::412:x, seq {par l {comp scrollPane1::l::406:x, seq l {comp btnAdd:::p::p, space :p:74:p, comp btnDelete:::p::p, space ::81:x, comp btnChange:::p::p}}, space :::p}}}}"
+			"$verticalGroup": "par l {seq t {space :::p, comp scrollPane1:::p:141:p, space :::p, comp text:::p::p, space s:::p, par b {comp btnAdd::b:p::p, comp btnChange::b:p::p, comp btnDelete::b:p::p}, space ::12:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnAdd"
+				"text": "Добавить"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnDelete"
+				"text": "Удалить"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnChange"
+				"text": "Заменить"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JList" ) {
+					name: "listGroups"
+					"selectionMode": 0
+					auxiliary() {
+						"JavaCodeGenerator.customCreate": true
+					}
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "text"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 420, 275 )
+		} )
+	}
+}

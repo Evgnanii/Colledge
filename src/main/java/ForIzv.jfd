@@ -1,0 +1,93 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :11:11:p, par l {seq {space :p:6:p, par l {seq l {comp label4:::p:189:p, space :::p, comp tvName:::p:430:p}, seq l {par t {comp label1:::p:189:p, comp label6:::p:189:p}, space :::p, par l {comp numbergroup:::p:430:p, comp edDoc:::p:430:p}}}, space :::x}, seq l {par t {par l {seq {space :p:4:p, par l {comp zayava::l:p::p, comp ct::l:p::p, comp family::l:p::p, comp photo::l:p::p, comp privil:::p::p, comp med::l:p::p}}, par t:l {seq {comp label5:::p:189:p, space :::p, comp spec:::p:430:p}, seq {comp label7:::p:189:p, space :::p, comp tvPriv:::p:430:p}}}, seq t {par l {comp label2:::p:189:p, comp label3::t:p:189:p}, space u:::p, par l {comp tvDocs:::::x, comp comboBox2:::::x}}}, space :p:21:p}}}, seq l {space :p:251:p, comp btnCreateRaspisky:::p::p, space :0:0:x}}"
+			"$verticalGroup": "par l {seq l {space :p:6:p, par b {comp label4::b:p::p, comp tvName::b:p::p}, space :::p, par b {comp label1::b:p::p, comp edDoc::b:p::p}, space :p:3:p, par b {comp numbergroup::b:p::p, comp label6::b:p::p}, space :::p, par b {comp tvPriv::b:p::p, comp label7::b:p::p}, space :::p, par b {comp spec::b:p::p, comp label5::b:p::p}, space u:::p, comp zayava:::p::p, space :::p, comp ct:::p::p, space :::p, comp family:::p::p, space :::p, comp photo:::p::p, space :::p, comp privil:::p::p, space :::p, comp med:::p::p, space u:::p, par b {comp label2::b:p::p, comp tvDocs::b:p::p}, space :::p, par b {comp comboBox2::b:p::p, comp label3::b:p::p}, space ::43:x, comp btnCreateRaspisky:::p::p, space :p:17:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Документ об образовании"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "edDoc"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "zayava"
+				"text": "Заявление"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "med"
+				"text": "Мед. Справка"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "ct"
+				"text": "Сертификаты ЦТ"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "family"
+				"text": "Справка о составе семьи"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "photo"
+				"text": "Фотографии"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "privil"
+				"text": "Документы (копии), подтверждающие право на льготы "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Другие документы"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tvDocs"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Принял секретарь"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Имя(родительский падеж)"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tvName"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Специальность"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "spec"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Номер/группа"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "numbergroup"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnCreateRaspisky"
+				"text": "Создать расписку"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "tvPriv"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Документы о льготах"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 25, 0 )
+			"size": new java.awt.Dimension( 665, 545 )
+		} )
+	}
+}
